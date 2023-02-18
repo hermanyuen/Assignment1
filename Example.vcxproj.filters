@@ -38,6 +38,9 @@
     <ClInclude Include="include\CppUnitLite\WFailure.h">
       <Filter>CppUnitLite\CppUnitLite header files</Filter>
     </ClInclude>
+    <ClInclude Include="StringStreamTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppUnitLite\WFailure.cpp">
@@ -59,6 +62,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="XxxTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayFloatTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPtrTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringStreamTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

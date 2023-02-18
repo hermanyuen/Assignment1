@@ -147,14 +147,20 @@
     <ClInclude Include="include\CppUnitLite\TestRegistry.h" />
     <ClInclude Include="include\CppUnitLite\TestResult.h" />
     <ClInclude Include="include\CppUnitLite\WFailure.h" />
+    <ClInclude Include="StringStreamTest.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayFloatTest.cpp" />
+    <ClCompile Include="ArrayTest.cpp" />
     <ClCompile Include="CppUnitLite\Failure.cpp" />
     <ClCompile Include="CppUnitLite\Test.cpp" />
     <ClCompile Include="CppUnitLite\TestRegistry.cpp" />
     <ClCompile Include="CppUnitLite\TestResult.cpp" />
     <ClCompile Include="CppUnitLite\WFailure.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="SmartPtrTest.cpp" />
+    <ClCompile Include="StringStreamTest.cpp" />
+    <ClCompile Include="VectorTest.cpp" />
     <ClCompile Include="XxxTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

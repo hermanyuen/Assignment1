@@ -5,11 +5,12 @@
 //Initialize the array with the values 0 to 9.
 TEST(equality, intArray)
 {
-	std::string hello("Hello");
 	int *arr = new int[10];
 	for (int index = 0; index < sizeof(arr); index++) {
 		arr[index] = index;
+	}
+	for (int index = 0; index < sizeof(arr); index++) {
 		CHECK_EQUAL(index, arr[index]);
 	}
-	delete []arr;
+	delete[] arr;
 }

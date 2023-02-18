@@ -19,8 +19,8 @@ TEST(equality, FloatArray)
 	for (int index{}; index < size; index++)
 	{
 		/*arr[index] = index+1/(float)(index+1);
-		std::cout << std::format("arr {:0.4f}",arr[index]) << std::endl;*/
-		CHECK_DOUBLES_EQUAL(index + 1 / (float)(index + 1), arr[index],0.4f);
+		std::cout << std::format("arr {:0.0001f}",arr[index]) << std::endl;*/
+		CHECK_DOUBLES_EQUAL(index + 1 / (float)(index + 1), arr[index],0.0001f);
 	}
 
 }

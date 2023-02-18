@@ -10,6 +10,8 @@ TEST(equality, VectorType)
 
 	for (int index = 0; index < vectorSize; index++) {
 		emptyVector.push_back(index);
+	}
+	for (int index = 0; index < vectorSize; index++) {
 		CHECK_EQUAL(index, emptyVector[index]);
 	}
 }
